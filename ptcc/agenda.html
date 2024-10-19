@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="css\agenda.css"> <!-- Certifique-se de que o caminho está correto -->
+</head>
+<body>
+
+<!-- Cabeçalho -->
+<header>
+    <img src="images/icons/logo.png" id="logo" style="width: 40px; height: auto;">
+    <div class="navbar">
+        <div class="dropdown">
+            <button>Meu Espaço</button>
+            <div class="dropdown-content">
+                <a href="#">Meu perfil</a>
+                <a href="#">Meu blog</a>
+                <a href="#">Correio TEC</a>
+                <a href="#">Informações Acadêmicas e Declarações</a>
+                <a href="#">Informações sobre Estágio</a>
+                <a href="#">Vagas de Estágio</a>
+                <a href="#">Conheça o nosso Portal</a>
+                <a href="#">Sair</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button>Área Comum</button>
+            <div class="dropdown-content">
+                <a href="#">Avisos (107)</a>
+                <a href="#">Blogs</a>
+                <a href="#">FAQ</a>
+                <a href="#">Fórum Integrado (0)</a>
+                <a href="#">Glossário</a>
+                <a href="#">Midiateca</a>
+                <a href="#">Wiki Integrado</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button>Minha Turma</button>
+            <div class="dropdown-content">
+                <a href="#">Meus colegas</a>
+                <a href="#">Meu tutor</a>
+                <a href="#">Fóruns</a>
+                <a href="#">Bate-papo agendado</a>
+                <a href="#">Bloco de notas</a>
+                <a href="#">Documentos</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Área do Mural de Avisos -->
+<div class="mural">
+    <h2>Agenda</h2>
+</div>
+
+<div class="grid">
+    <div class="card">
+        <h3>Nome da Atividade</h3>
+        <form>
+            <label for="atividade">Nome da Atividade:</label>
+            <input type="text" id="atividade" name="atividade" required>
+
+            <label for="instrucao">Instruções da Atividade:</label>
+            <textarea id="instrucao" name="instrucao" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <div class="card">
+        <h3>Atividades Pendentes</h3>
+        <table style="width:100%">
+            <tr>
+                <th>Data de Entrega</th>
+                <th>Atividade</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>01/10/2024</td>
+                <td>DS - Atividade 01</td>
+                <td class="esperando">Esperando Correção</td>
+            </tr>
+            <tr>
+                <td>05/10/2024</td>
+                <td>TI - Atividade 01</td>
+                <td class="aprovada">Aprovada</td>
+            </tr>
+            <tr>
+                <td>10/10/2024</td>
+                <td>LP - Atividade 02</td>
+                <td class="nao-aprovada">Não Aprovada</td>
+            </tr>
+            <tr>
+                <td>10/10/2024</td>
+                <td>DS - Atividade 02</td>
+                <td class="nao-entregue">Não Entregue</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<!-- Rodapé -->
+<footer>
+    <p>Footer</p>
+</footer>
+
+</body>
+</html>

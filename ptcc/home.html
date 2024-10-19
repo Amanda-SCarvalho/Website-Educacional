@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Espaço</title>
+    <link rel="stylesheet" href="css\home.css">
+    
+</head>
+<body>
+
+<!-- Cabeçalho -->
+<header>
+    <!-- Logo e botões -->
+    <img src="images/icons/logo.png" id="logo" style="width: 40px; height: auto;">
+
+
+    <div class="navbar">
+        <!-- Meu Espaço -->
+        <div class="dropdown">
+            <button>Meu Espaço</button>
+            <div class="dropdown-content">
+                <a href="#">Meu perfil</a>
+                <a href="#">Meu blog</a>
+                <a href="#">Correio TEC</a>
+                <a href="#">Informações Acadêmicas e Declarações</a>
+                <a href="#">Informações sobre Estágio</a>
+                <a href="#">Vagas de Estágio</a>
+                <a href="#">Conheça o nosso Portal</a>
+                <a href="#">Sair</a>
+            </div>
+        </div>
+        <!-- Area comum -->
+        <div class="dropdown">
+            <button>Área Comum</button>
+            <div class="dropdown-content">
+                <a href="#">Avisos (107)</a>
+                <a href="#">Blogs</a>
+                <a href="#">FAQ</a>
+                <a href="#">Fórum Integrado (0)</a>
+                <a href="#">Glossário</a>
+                <a href="#">Midiateca</a>
+                <a href="#">Wiki Integrado</a>
+            </div>
+        </div>
+        <!-- Minha turma -->
+        <div class="dropdown">
+            <button>Minha Turma</button>
+            <div class="dropdown-content">
+                <a href="#">Meus colegas</a>
+                <a href="#">Meu tutor</a>
+                <a href="#">Fóruns</a>
+                <a href="#">Bate-papo agendado</a>
+                <a href="#">Bloco de notas</a>
+                <a href="#">Documentos</a>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Area do mural de avisos -->
+<div class="mural">
+    <h2>Mural de Avisos</h2>
+</div>
+
+<div class="grid">
+
+    <div class="card"> <!-- Agendas -->
+        <h3>Agendas</h3>
+        <table style="width:100%">
+            <tr>
+              <th>Data de entrega</th>
+              <th>Agenda</th>
+              <th>Status</th>
+            </tr>
+            <tr>
+              <td>01/10/2024</td>
+              <td><a href="agenda.html">DS - Agenda 01</a>
+              <td class="esperando">Esperando Correção</td>
+            </tr>
+            <tr>
+              <td>05/10/2024</td>
+              <td> TI- Agenda 01</td>
+              <td class="aprovada">Aprovada</td>
+            </tr>
+            <tr>
+              <td>10/10/2024</td>
+              <td>LP - Agenda 02</td>
+              <td class="nao-aprovada">Não Aprovada</td>
+            </tr>
+            <tr>
+                <td>10/10/2024</td>
+                <td>DS - Agenda 02</td>
+                <td class="nao-entregue">Não Entregue</td>
+              </tr>
+          </table>
+        <p>Ordernar</p>
+    </div>
+    <div class="card"> <!-- Correio tec -->
+        <h3>Correio Tec</h3>
+        <table style="width:100%">
+            <tr>
+              <th>Data</th>
+              <th>Assunto</th>
+              <th>Remetente</th>
+            </tr>
+            <tr>
+              <td>01/10/2024</td>
+              <td>Encontro Sincronomo</td>
+              <td>Maria Eduarda</td>
+            </tr>
+            <tr>
+              <td>05/10/2024</td>
+              <td>Agenda 10 - Dicas</td>
+              <td>Joao silva</td>
+            </tr>
+            <tr>
+              <td>10/10/2024</td>
+              <td>Palestra</td>
+              <td>Eduardo Oliveira</td>
+            </tr>
+          </table>
+          <P><a href="#">Você tem 1 mensagem nova mensagem</a></P>
+        <button>Ir para o Correio Tec</button>
+    </div>
+    <div class="card"> <!-- Glossario -->
+        <h3>Glossary</h3>
+        <button>Entrar</button>
+    </div>
+    <div class="card"> <!-- Carreiras -->
+        <h3>Carreiras</h3>
+        <button>Entrar</button>
+    </div>
+    <div class="card"> <!-- Biblioteca -->
+        <h3>Biblion</h3>
+        <button>Entrar</button>
+    </div>
+    <div class="card"> <!-- Documentos -->
+        <h3>Envio de documentos</h3>
+        <button>Entrar</button>
+    </div>
+</div>
+
+</body>
+</html>
