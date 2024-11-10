@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="shortcut icon" type="imagex/png" href="/ptcc/images/icons/icone.ico">
     <link rel="stylesheet" href="css\style.css">
 
     <title>Website Educacional</title>
@@ -47,15 +47,15 @@
                 Entrar
             </button>
 
-            
+
 
         </form>
 
         <div id="validacao">
-                <a href="#">
-                    Deseja validar os documentos?
-                </a>
-            </div>
+            <a href="#">
+                Deseja validar os documentos?
+            </a>
+        </div>
 
     </main>
 

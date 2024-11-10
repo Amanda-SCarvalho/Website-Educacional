@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agenda</title>
+    <title>Meu Perfil</title>
     <link rel="shortcut icon" type="imagex/png" href="images/icons/icone.ico">
-    <link rel="stylesheet" href="css/agenda.css"> 
+    <link rel="stylesheet" href="/ptcc/css/agenda.css"> 
 </head>
 
 <body>
@@ -14,7 +14,7 @@
     <!-- Cabeçalho -->
     <header>
         <a href="/ptcc/home.html">
-            <img src="images/icons/logo.png" id="logo" style="width: 40px; height: auto;">
+            <img src="/ptcc/images/icons/logo.png" id="logo" style="width: 40px; height: auto;">
         </a>
         
         <div class="navbar">
@@ -57,9 +57,9 @@
         </div>
     </header>
 
-    <!-- Área do Mural de Avisos -->
+    <!-- Área do Perfil -->
     <div class="mural">
-        <h2>Nome da matéria e agenda</h2>
+        <h2>Meu Perfil</h2>
     </div>
 
     <div class="container">
@@ -73,23 +73,23 @@
             <a href='/ptcc/agenda.html'><button>Fichário</button></a>
             <a href='/ptcc/atividades/ampliando_horizontes.html'><button>Ampliando Horizontes</button></a>
             <a href='/ptcc/atividades/tutor.html'><button>Fale com o seu Tutor</button></a>
-
         </div>
 
         <div class="main-content">
-            <h3>Nome da Atividade</h3>
-            <form>
-
-                <h4>Instruções da atividade</h4>
+            <h3>Informações Pessoais</h3>
+            <div class="main-content">
                 <div class="instruction-box">
-                    <p>Texto da instrução</p>
+                    <img src="/ptcc/images/icons/perfil.jpg" alt="Foto de Perfil" style="width: 150px; height: auto; border-radius: 50%;">
+                    <p>Nome: Lucas Souza</p>
+                    <p>Email: lucas.souza00@etec.sp.gov.br</p>
+                    <p>Telefone: (11) 91234-5678</p>
+                    <p>Polo: Etec Cidade Tiradentes - São Paulo</p>
+                    <p><a href="#">Mudar Perfil</a></p>
+                    <p><a href="#">Mudar Usuário</a></p>
+                    <p><a href="#">Mudar Senha</a></p>
+
                 </div>
-                <div class="submission-area">
-                    <h4>Local de Envio da Atividade:</h4>
-                    <textarea placeholder="Local para escrever a resposta..."></textarea>
-                </div>
-                <button class="button-enviar" onclick="alert('Atividade Enviada')">Enviar</button>
-            </form>
+            </div>
         </div>
     </div>
 
