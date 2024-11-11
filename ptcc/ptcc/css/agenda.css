@@ -1,0 +1,229 @@
+:root {
+  --color-background: #c9d6ff;
+  --color-validacao: #333;
+  --color-botao: #512da8;
+  --color-inout: #eee;
+  --color-font: #0d1117;
+  --color-link: #58a6ff;
+}
+
+/* Corpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--color-background);
+  margin: 0;
+  padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-inout);
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+#logo {
+  width: 60px;
+  height: 60px;
+}
+
+.navbar {
+  display: flex;
+}
+
+/* Botões */
+.dropdown {
+  position: relative;
+  margin-right: 20px;
+}
+
+.dropdown button {
+  background-color: #2a018a;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 8px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Mural de avisos */
+.mural {
+  background-color: var(--color-botao);
+  padding: 20px;
+  text-align: center;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+
+.container {
+  display: flex;
+  margin: 20px 0;
+}
+
+.sidebar {
+  background-color: #ffcc00;
+  padding: 15px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+
+
+.main-content {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.instruction-box {
+  background-color: #e6e6ff;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.submission-area {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px; /* Aumentei o padding para um visual mais espaçoso */
+  margin-top: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Faz com que a área ocupe toda a largura disponível */
+  max-width: 600px; /* Define uma largura máxima para a área */
+  margin-left: auto; /* Centraliza horizontalmente */
+  margin-right: auto; /* Centraliza horizontalmente */
+}
+
+.submission-area textarea {
+  width: 80%; /* Faz com que o textarea ocupe toda a largura da div */
+  height: 150px; /* Define uma altura fixa para o textarea */
+  border: 1px solid black; /* Remove a borda padrão */
+  border-radius: 5px; /* Bordas arredondadas */
+  padding: 10px; /* Espaçamento interno */
+  resize: none; /* Remove a opção de redimensionar */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra interna */
+  font-size: 16px; /* Tamanho da fonte */
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-inout);
+  padding: 15px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Adicionando estilos para os botões */
+.sidebar button {
+  background-color: #512da8;
+  color: white;
+  border: none;
+  padding: 12px;
+  margin: 5px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.sidebar button:hover {
+  background-color: #58a6ff;
+  transform: translateY(-2px);
+}
+
+/* Estilo para os títulos */
+h3 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+h4 {
+  color: #555;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+.button-enviar {
+  background-color: var(--color-botao);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+  display: block;
+  margin: 20px auto 0; /* Centraliza horizontalmente */
+}
+
+.button-enviar:hover {
+  background-color: #58a6ff;
+  transform: translateY(-2px);
+}
+
+.forum-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.forum-table th {
+  background-color:var(--color-link);
+  color: var(--color-font);
+  padding: 12px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.forum-table td {
+  padding: 8px;
+  border: 1px solid #000000;
+}
+
+.forum-table tr:hover {
+  background-color: #8f53ff;
+}

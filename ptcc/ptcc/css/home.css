@@ -1,0 +1,136 @@
+:root {
+  --color-background:#c9d6ff;
+  --color-validacao: #333;
+  --color-botao: #512da8;
+  --color-inout: #eee;
+  --color-font: #0d1117;
+  --color-link:#58a6ff
+
+}
+/* Corpo*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--color-background);
+  margin: 0;
+  padding: 20px;
+}
+/* Cabeçalho */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-inout);
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+#logo {
+  width: 60px;
+  height: 60px;
+}
+
+.navbar {
+  display: flex;
+}
+/* Botões */
+.dropdown {
+  position: relative;
+  margin-right: 20px;
+}
+.dropdown button {
+  background-color: #2a018a;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 8px;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* Mural de avisos */
+.mural {
+  background-color: var(--color-botao);
+  padding: 100px;
+  text-align: center;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+/* Grade */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 20px;
+  justify-content: center; /* Centraliza os cards horizontalmente */
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 500px; /* Define uma largura máxima para os cards */
+}
+
+.card button {
+  background-color: #2a018a;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: var(--color-link);
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+
+/* Tabelas */
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+.esperando {
+  background-color: rgb(0, 42, 119);
+  color: white;
+}
+.aprovada {
+  background-color: rgb(0, 255, 0);
+  color: black;
+}
+.nao-aprovada {
+  background-color: rgb(255, 18, 18);
+  color: white;
+}
+.nao-entregue {
+  background-color: yellow;
+  color: black;
+}
