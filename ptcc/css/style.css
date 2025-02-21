@@ -133,3 +133,18 @@ form {
 #validacao a{
     font-size: 14px;
 }
+
+#cadastro {
+    background-color: var(--color-inout);
+    padding: 16px 44px;
+    border: 1px solid var(--color-botao);
+    border-radius: 8px;
+}
+
+#cadastro:hover{
+    background-color:var(--color-link);
+}
+
+#cadastro a{
+    font-size: 14px;
+}
