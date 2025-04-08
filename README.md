@@ -75,8 +75,5 @@ O banco de dados é composto por seis tabelas principais:
 4. **Inicie o servidor**:
    - Acesse o projeto através do seu navegador em `http://localhost/website-educacional`.
 
-## Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para fazer um fork deste repositório e enviar pull requests.
 
 **São Paulo, 2024**
